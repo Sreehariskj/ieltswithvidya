@@ -50,9 +50,9 @@ ul {
     /* text-align: left; */
 }
 
-ul {
-	/* list-style-type: none; */
-}
+/* ul {
+	list-style-type: none;
+} */
 
 body a:hover {
 	text-decoration: none;
@@ -116,7 +116,7 @@ ul.menu {
 #logo a span {
     color: #fff;
 }
-.logo h1 a {
+.logo h2 a {
     font-family: 'Ubuntu', sans-serif;
     text-transform: capitalize;
     font-weight: 600;
@@ -247,10 +247,14 @@ li > a:only-child:after {
         text-align: center;
         float: none;
     }
+    .logo h2 a {
+        font-size: .7em;
+    }
 
     nav {
         margin: 0;
     }
+    
 
     /* Hide the navigation menu by default */
     /* Also hide the  */
