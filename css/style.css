@@ -268,7 +268,7 @@ li > a:only-child:after {
   .toggle {
     display: block;
     padding: 4px 15px;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     border: none;
     float: right;
@@ -368,7 +368,9 @@ li > a:only-child:after {
 }
 
 @media all and (max-width: 330px) {
-
+    .logo h2 a {
+        font-size: .5em;
+    }
     nav ul li {
         display: block;
         width: 94%;
